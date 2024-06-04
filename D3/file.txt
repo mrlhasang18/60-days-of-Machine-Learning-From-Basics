@@ -1,0 +1,2 @@
+Hello, this is me lhasang
+I am learning python
