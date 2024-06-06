@@ -1,6 +1,17 @@
 # This is the version 1.0 of TUlKU: My first personal voice assistant
+# Note: Please keep in mind that this is a beginner-level Python project and If you found this helpful and have extra ideas and want to contribute then you are free to do so
+''' In this project, I have used the: 
+os.system("powershell -c Add-Type -AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('hello')")
+to make my assistant be able to speak and 
 
-# importing os and time modules
+If you are using Devian/macOS You can use say:
+os.system("say 'hello'")  
+
+For Linux OS:
+os.system("espeak 'hello'")
+
+'''
+# Importing OS and time modules
 import os,time
 
 if __name__ == '__main__':
