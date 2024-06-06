@@ -1,5 +1,4 @@
-# Today we will create a simple robo speaker named: TULKU using python
-# This is the version 1.0 of TUlKU
+# This is the version 1.0 of TUlKU: My first personal voice assistant
 
 # importing os and time modules
 import os,time
