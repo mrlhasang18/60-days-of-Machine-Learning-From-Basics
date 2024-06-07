@@ -1,0 +1,30 @@
+Hashmap is the datastructure that implements the associative abstract datatypes, a structure that can map key to values.
+Hash Table: It is just the arrays with function (hash function)
+
+so here comes the hash function which is responsible for data storing from input and outputing data
+
+Collision: woccur when two or more keys hash to the same index in the table.
+ for example :  apple and ant
+
+Collision resolution techniques:
+To minimize collision,there are two methods:
+
+1.linear Probing:    new value will be added in the open slot
+  (has a look up time complexity if O(n))
+
+2.Seperate chaining: uses linked list 
+( each bucket in the hash table contains a linked list of entries that hash to the same index.
+ When a collision occurs, the colliding elements are stored in the linked list.)
+
+Dictionary: It is the hash table representation in python which is a ordered key:value paired datastructure.
+It's syntax:
+
+dict = {key1:value1,
+        key2:value2,
+        key3:value3,
+        ....
+        keyn:valuen
+        }
+
+It is mutable and can contain values wiht multiple multiple datatypes.
+Although Dictionary is mutable, key is immutable and unique.
