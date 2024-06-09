@@ -1,0 +1,11 @@
+
+Lets understand Big O Notation
+
+-> Big O Notation: 
+- It measures the worst case complexity of an algorithm
+   - Time complexity : time taken to run completely
+   - Space complexity: extra memory Space
+- It doesn't use seconds/bytes:
+   - cause the result is different depending on the hardware
+- Mathematical Expressions:
+   -O(1), O(n), O(n^2), ...

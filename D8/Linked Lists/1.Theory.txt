@@ -1,0 +1,29 @@
+
+Linked list are data structure similar to array that allows you to store a collection of items in a specific order.
+Unlike arrays, elements in a linked list are not stored at contiguous memory locations and are instead stored in nodes that are linked using pointers.
+
+Linked list has two parts: 
+  _____________
+ |      |      |   
+ | DATA | Next |   The first node is a head
+ |______|______|
+
+ fig: Node
+
+There are two type of linked list:
+1.singly linked list: only one link in node
+2.doubly linked list: 2 link in node 
+
+Linked List -real uses:
+- To implement other data structures:
+  - stacks
+  - queues
+  - graphs
+
+- Access information by navigating backward and forward:
+  - web browser
+  - music playlist
+
+
+
+
