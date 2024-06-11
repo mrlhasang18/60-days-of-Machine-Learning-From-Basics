@@ -1,0 +1,37 @@
+
+ ---------------------------------------------- Tree datastructure -------------------------------------------------
+
+Defination: 
+- Tree is a non-linear,recursion and hierarchical datastructure that contains multiple nodes in different level and 
+  the nodes can be connected by directed or undirected edges.
+
+Understanding:
+- we use tree when we have heirerchail order:
+- Top of the tree is called root node:                           Level 0
+- middle ones are just called node.                              Level 1
+- and the nodes that doesn't have children is called leaf node.  level 2: for only 2 generation
+
+Binary Tree:
+- It is just like a general tree with 2 exceptions:
+  - Every node has atmust 2 child nodes
+  - Binary search Tree or BST
+    - Special case of binary tree WHERE:
+      - Left hand node has less value and right has higher value 
+      - Elements are not duplicatied(i.e. unique value)
+
+Search Complexity:
+- Every iteration we reduce search space by 1/2
+  - for n=8  8->4->2->1
+  - 3 iteration
+  -log2(8) = 3
+  - Search Complexity = O(log n)
+
+Searching Algorithm in BST:
+- Breadth First Search
+- Depth First Search    : Always lefts of tree and then rights of tree
+  - Inorder Traversal   : lefts of tree, recursion and after lefts of tree is done then rights of tree
+    - your root node in between 
+  - Postorder Traversal : 
+    - your root node at right
+  - Preorder Traversal
+    - root node a
